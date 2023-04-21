@@ -1,0 +1,32 @@
+.popular__brand__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container__heading{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 45px 0;
+}
+.image__container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.image__container img{
+    height: 120px;
+    object-fit: contain;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .image__container img{
+        height: 60px;
+        object-fit: contain;
+    }
+}

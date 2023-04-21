@@ -1,0 +1,24 @@
+.secondary__navbar__container{
+    background-color: rgba(64,126,210,0.6);
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdown__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.searchbar__second__nav{
+    display: none;
+}
+@media (max-width: 768px) {
+    .dropdown__container{
+        display: none;     
+    }
+    .searchbar__second__nav {
+        display: block;      
+      } 
+}

@@ -1,0 +1,42 @@
+.navbar__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #407ED2;
+  height: 13vh;
+}
+.image__logo{
+  height: 80px;
+}
+
+
+.right__side__container{
+  display: flex;
+  color: #fefefe;
+  width: 130px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  /* CSS styles here */
+  .navbar__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #407ED2;
+    height: 12vh;
+  }
+
+  .searchbar__container{
+    display: none;
+   
+  }
+  .image__logo{
+    margin-left: 50px;
+  }
+  .right__side__container{
+    margin-right: 20px;
+  }
+
+}
