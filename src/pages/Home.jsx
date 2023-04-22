@@ -4,6 +4,7 @@ import SecondaryNavbar from "../components/SecondaryNavbar/SecondaryNavbar";
 import Masterbanner from "../components/MasterBanner-component/Masterbanner";
 import Popularbrand from "../components/PopularBrand-component/Popularbrand";
 import Smallbanner from "../components/Smallbanner-component/Smallbanner";
+import Footercomponent from "../components/Footer-component/Footercomponent";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Masterbanner />
       <Popularbrand />
       <Smallbanner />
+      <Footercomponent />
     </div>
   );
 };
