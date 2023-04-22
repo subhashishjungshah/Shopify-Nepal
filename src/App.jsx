@@ -1,11 +1,15 @@
 import "./App.css";
-import ProductDetailPage from "./pages/ProductDetailPage";
-
+import Footercomponent from "./components/Footer-component/Footercomponent";
+import Navbar from "./components/Navbar-component/Navbar";
+import SecondaryNavbar from "./components/SecondaryNavbar/SecondaryNavbar";
+import Routing from "./Routing/Routing";
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      <ProductDetailPage />
+      <Navbar />
+      <SecondaryNavbar />
+      <Routing />
+      <Footercomponent />
     </>
   );
 }

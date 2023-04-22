@@ -9,12 +9,9 @@ import Footercomponent from "../components/Footer-component/Footercomponent";
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <SecondaryNavbar />
       <Masterbanner />
       <Popularbrand />
       <Smallbanner />
-      <Footercomponent />
     </div>
   );
 };
