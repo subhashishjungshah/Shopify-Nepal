@@ -30,3 +30,31 @@
     align-items: center;
     gap: 20px;
 }
+@media (max-width: 768px) { 
+    .product__detail__right__container{ 
+        gap: 10px;
+    }
+    .product__model{
+        font-size: 16px;   
+    }
+    .product__tile{
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .product__description{
+        font-size: 13px;
+    }
+    .price__tag{
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .real__price{
+        font-size: 13px;
+    }
+    .discounted__price{
+        font-size: 13px;
+    }
+    .button__container{
+        gap: 10px;
+    }
+}
