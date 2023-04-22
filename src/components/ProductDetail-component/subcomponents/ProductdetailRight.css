@@ -1,0 +1,32 @@
+.product__detail__right__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.product__model{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.product__tile{
+    font-size: 25px;
+    font-weight: 600;
+}
+.product__description{
+    font-size: 15px;
+}
+.price__tag{
+    font-size: 25px;
+    font-weight: 600;
+}
+.real__price{
+    font-size: 15px;
+}
+.discounted__price{
+    font-size: 15px;
+}
+.button__container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
