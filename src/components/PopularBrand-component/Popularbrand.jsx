@@ -1,9 +1,10 @@
 import React from "react";
 import "./Popularbrand.css";
+import Title from "../Title/Title";
 const Popularbrand = () => {
   return (
     <div className="popular__brand__container">
-      <p className="container__heading">Popular Brands</p>
+      <Title title="Popular Brands" />
       <div className="image__container">
         <img
           src="https://www.virginmegastore.qa/medias/Merchant-Ambassador-logo.webp?context=bWFzdGVyfHJvb3R8MzI1OHxhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW18aGYwL2hhYS8xMDI5OTcyNjUyODU0Mi9NZXJjaGFudC1BbWJhc3NhZG9yLWxvZ28ud2VicHw1Y2QxMWVlNmU3YmFiODBjYThiOWZlZDI4NWMyYjMxODY5NDdjZTM4N2NkMGQwMmZkNjdlYmUxMDM5NGQ5Mjdm"

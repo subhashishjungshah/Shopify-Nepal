@@ -1,0 +1,21 @@
+.categoryCard_container{
+    cursor: pointer;
+}
+.categoryCard_img_container{
+    text-align: center !important;
+    justify-content: center !important;
+}
+.categoryCard_img_container img{
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    border-radius: 8px;
+}
+.categoryCard_container p{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.categoryCard_container p:hover{
+    color: #407ED2;
+}
