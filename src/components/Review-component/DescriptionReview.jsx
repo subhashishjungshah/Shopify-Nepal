@@ -3,12 +3,13 @@ import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
 import Review from "./Review";
 import Description from "./Description";
+import "./DescriptionReview.css";
 const DescriptionReview = () => {
   return (
     <Tabs
       defaultActiveKey="profile"
       id="uncontrolled-tab-example"
-      className="mb-3"
+      className="mb-3 tab__container"
     >
       <Tab eventKey="home" title="Description">
         <Description />

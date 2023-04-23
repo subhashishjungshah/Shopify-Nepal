@@ -1,0 +1,126 @@
+.register__component__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    width: 100%;
+}
+.register__title{
+    font-size: 18px;
+}
+.register__container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 50px;
+ 
+}
+.form__select{
+    border-radius: 0px !important;
+    height: 55px !important;
+    /* padding: 25px !important; */
+    border: 1px solid rgba(0,0,0,0.2) !important;
+    outline: none !important;
+}
+.form__title{
+    font-weight: 600;
+    font-size: 16px;
+}
+.number__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .register__component__container{
+        gap: 5px;
+        padding: 0px;
+        width: 100%;
+    }
+    .register__title{
+        font-size: 15px;
+    }
+    .register__container{
+        gap: 10px;
+        padding: 15px;   
+    }
+    .form__select{
+        height: 40px !important;
+        font-size: 11px !important;
+    }
+    .form__title{
+        font-size: 14px;
+    }
+    .password__info{
+        font-size: 14px;
+    }
+    .agreement_desc{
+        font-size: 14px;
+    }
+    .button__login{
+        padding: 5px 15px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .register__component__container{
+        /* padding: 50px; */
+        width: 100%;
+    }
+    .register__title{
+        font-size: 18px;
+    }
+    .register__container{
+        gap: 20px;
+        padding: 15px;   
+    }
+    .form__select{
+        height: 45px !important;
+        font-size: 15px !important;
+    }
+    .form__title{
+        font-size: 14px;
+    }
+    .password__info{
+        font-size: 14px;
+    }
+    .agreement_desc{
+        font-size: 14px;
+    }
+    .button__login{
+        padding: 8px 18px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .register__component__container{
+        gap: 5px;
+        padding: 20px;
+        width: 100%;
+    }
+    .register__title{
+        font-size: 18px;
+    }
+    .register__container{
+        gap: 50px;
+        padding: 15px;   
+    }
+    .form__select{
+        height: 50px !important;
+        font-size: 20px !important;
+    }
+    .form__title{
+        font-size: 16px;
+    }
+    .password__info{
+        font-size: 16px;
+    }
+    .agreement_desc{
+        font-size: 16px;
+    }
+    .button__login{
+        padding: 10px 20px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+
+}
