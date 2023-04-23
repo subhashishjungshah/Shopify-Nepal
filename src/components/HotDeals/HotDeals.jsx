@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeatureProduct.css";
+import "./HotDeals.css";
 import Title from "../Title/Title";
 import SliderProvider from "../../Provider/SliderProvider";
 import CategoryCard from "../Card/CategoryCard/CategoryCard";
@@ -12,11 +12,11 @@ import MobileCase from "../../assets/mobileCase.webp";
 import teaCoffee from "../../assets/Tea&Coffee.webp";
 import ProductCard from "../Card/ProductCard/ProductCard";
 
-const FeatureProduct = () => {
+const HotDeals = () => {
   return (
     <>
       <div className="most_view_container">
-        <Title title="Feature Product" />
+        <Title title="Hot Deals" />
       </div>
       <SliderProvider>
         <div>
@@ -39,4 +39,4 @@ const FeatureProduct = () => {
   );
 };
 
-export default FeatureProduct;
+export default HotDeals;
