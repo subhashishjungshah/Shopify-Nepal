@@ -2,7 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 const Smallbanner = () => {
   return (
-    <Carousel fade className="container" style={{ paddingBottom: "20px" }}>
+    <Carousel fade className="container" style={{ paddingBottom: "20px",marginTop:"36px" }}>
       <Carousel.Item>
         <img
           className="d-block w-100"
