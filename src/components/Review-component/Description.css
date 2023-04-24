@@ -2,6 +2,13 @@
   background-color: #fefefe;
   /* margin: 10px 40px; */
   padding: 20px;
+  height: 150px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out; 
+}
+.product__description__container.show{
+  height: 500px;
+  overflow: visible;
 }
 .description__title {
   background-color: #e7e7e7;
@@ -35,4 +42,16 @@
 }
 .specs__title {
   color: #4c98d5;
+}
+.view_description{
+  text-align: center;
+}
+.view_description button{
+  border-bottom: 2px solid #4c98d5 !important ;
+  border: none ;
+  color: #4c98d5  ;
+  padding: 8px 0px;
+  font-weight: bold;
+  background-color: white;
+  margin-bottom: 26px;
 }
