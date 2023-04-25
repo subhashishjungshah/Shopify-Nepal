@@ -70,12 +70,12 @@
   }
   .btn__text {
     border-bottom: 4px solid #407ed2;
-    width: 170px;
+    width: 180px;
     padding: 30px;
   }
   .btn__text__unselected {
     border-bottom: 4px solid rgba(0, 0, 0, 0.2);
-    width: 170px;
+    width: 180px;
     padding: 30px;
   }
   .triangle-down-unselected {
