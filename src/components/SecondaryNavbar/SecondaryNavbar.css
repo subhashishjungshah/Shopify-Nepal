@@ -1,24 +1,91 @@
-.secondary__navbar__container{
-    background-color: rgba(64,126,210,0.6);
-    height: 6.5vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+p {
+  margin-bottom: 0px !important;
 }
-.dropdown__container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+.sub_menu_container {
 }
-.searchbar__second__nav{
-    display: none;
+.sub_menu {
+  background-color: rgba(64, 126, 210, 0.6);
 }
-@media (max-width: 768px) {
-    .dropdown__container{
-        display: none;     
-    }
-    .searchbar__second__nav {
-        display: block;      
-      } 
+.sub_menu ul {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.sub_menu ul > li {
+  list-style-type: none;
+}
+.sub_menu ul > li > p {
+  padding: 8px 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: none !important;
+  color: white;
+  font-weight: bold;
+}
+.mega_menu_container {
+  background-color: white;
+  position: absolute !important;
+  z-index: 9999;
+  width: 90%;
+  left: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mega_menu {
+  cursor: pointer;
+  padding: 30px 40px;
+}
+.mega_menu_title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.mega_menu_first {
+}
+.mega_menu_first ul {
+  padding: 0px;
+}
+.mega_menu_first ul > li {
+  list-style-type: none;
+  line-height: 2;
+}
+.mega_menu_first ul > li > p {
+  font-size: 14px;
+}
+.mega_menu_first ul > li > p:hover {
+  color: #407ed2 !important;
+  font-weight: bold;
+}
+.mega_menu_third {
+}
+.mega_menu_brands {
+}
+.mega_menu_img {
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
+}
+.mega_menu_four {
+}
+.mega_popular_picks {
+}
+.mega_popular_picks img {
+  object-fit: cover;
+  height: 200px;
+  width: 200px;
+  margin-bottom: 12px;
+}
+.mega_popular_picks p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.search_bar_menu {
+  display: none;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex: 0.7;
 }
