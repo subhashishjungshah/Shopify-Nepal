@@ -1,0 +1,35 @@
+.product__review__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .product__review__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product__review__form  select {
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+  .review__textarea {
+    height: 120px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+  }
+  .review__submit__btn {
+    padding: 10px 20px;
+    background-color: #4c98d5;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: #fefefe;
+    text-transform: uppercase;
+    font-weight: 600;
+  }

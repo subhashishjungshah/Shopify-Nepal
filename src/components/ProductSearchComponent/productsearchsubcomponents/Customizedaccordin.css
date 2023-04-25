@@ -1,0 +1,25 @@
+.accordin__item{
+    border: none !important;
+    width: 200px !important;
+    outline: none !important;
+}
+.accordin__main__wrapper{
+    outline: none !important;  
+    border-bottom: 1px solid RGBA(0,0,0,0.2) !important;
+}
+.accordion-button{
+    background-color: var(--bs-accordion-btn-bg);
+    border-bottom: 1PX solid RGBA(0,0,0,0.2);
+}
+.accordion-button:focus {
+    z-index: 3;
+    outline: 0;
+}
+.accordion-button:not(.collapsed) {
+    /* color: var(--bs-accordion-active-color); */
+    background-color: white !important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+.accordion-button:focus {
+    box-shadow: none;
+}

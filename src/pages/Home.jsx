@@ -1,21 +1,20 @@
-import React from "react";
-import Navbar from "../components/Navbar-component/Navbar";
-import SecondaryNavbar from "../components/SecondaryNavbar/SecondaryNavbar";
+import FeatureProduct from "../components/FeatureProduct/FeatureProduct";
+import HotDeals from "../components/HotDeals/HotDeals";
 import Masterbanner from "../components/MasterBanner-component/Masterbanner";
+import MostViewCategory from "../components/MostViewCategory/MostViewCategory";
 import Popularbrand from "../components/PopularBrand-component/Popularbrand";
 import Smallbanner from "../components/Smallbanner-component/Smallbanner";
-import Footercomponent from "../components/Footer-component/Footercomponent";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
-      <SecondaryNavbar />
+    <>
       <Masterbanner />
+      <MostViewCategory />
       <Popularbrand />
+      <FeatureProduct />
       <Smallbanner />
-      <Footercomponent />
-    </div>
+      <HotDeals />
+    </>
   );
 };
 

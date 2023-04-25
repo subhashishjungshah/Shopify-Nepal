@@ -1,0 +1,37 @@
+.input__container{
+    display: flex;
+    flex-direction: column;
+}
+.input__title{
+    font-weight: 600;
+    font-size: 18px;
+}
+.input__field{
+    height: 40px;
+    padding: 25px;
+    border: 1px solid rgba(0,0,0,0.2);
+    outline: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .input__title{
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .input__field{
+        height: 30px;
+        padding: 20px;
+    }
+    
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .input__title{
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .input__field{
+        height: 35  px;
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){}
