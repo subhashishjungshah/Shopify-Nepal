@@ -4,6 +4,7 @@
     gap: 5px;
     padding: 20px;
     width: 100%;
+    /* margin-bottom: 1000px; */
 }
 .register__title{
     font-size: 18px;
@@ -39,7 +40,7 @@
         width: 100%;
     }
     .register__title{
-        font-size: 15px;
+        font-size: 16px;
     }
     .register__container{
         gap: 10px;
@@ -96,6 +97,7 @@
         gap: 5px;
         padding: 20px;
         width: 100%;
+       /* padding: 20px; */
     }
     .register__title{
         font-size: 18px;

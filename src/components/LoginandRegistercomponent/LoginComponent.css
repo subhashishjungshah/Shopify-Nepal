@@ -1,9 +1,12 @@
+.container{
+    width: 100% !important;
+}
 .logincomponent__container{
     display: flex;
     flex-direction: column;
     gap: 5px;
     padding: 20px;
-    width: 100%;
+    width: 100% !important;
 }
 .login__title{
     font-size: 18px;
