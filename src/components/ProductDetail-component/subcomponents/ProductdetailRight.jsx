@@ -5,7 +5,10 @@ const ProductdetailRight = () => {
   return (
     <div className="product__detail__right__container">
       <p className="text-muted product__model">
-        BRAND: NEW ERA MODEL 13083919-L
+        <span className="product_title_span1">BRAND :</span>
+        <span className="product_title_span2">NEW ERA</span>
+        <span className="product_title_span1">MODEL :</span>
+        <span className="product_title_span2">13083919-L</span>
       </p>
       <p className="product__tile">
         New Era NBA Miami Heat Back Body Print Men's T-Shirt - Black
@@ -22,36 +25,18 @@ const ProductdetailRight = () => {
         <option value="2">Medium</option>
         <option value="3">lARGE</option>
       </Form.Select>
-      <div className="row ">
-        <div className="col-sm-4">
-          <div className="input-group">
-            <div className="input-group-prepend">
-              <button className="btn btn-outline-secondary" type="button">
-                -
-              </button>
-            </div>
-            <input
-              type="text"
-              className="form-control text-center"
-              value="0"
-              id="count"
-              disabled
-            />
-            <div className="input-group-append">
-              <button className="btn btn-outline-secondary" type="button">
-                +
-              </button>
-            </div>
-          </div>
-        </div>
+     <div className="d-flex">
+      <div className="price_tag">
+        Rs. <span>1200</span>/-
       </div>
-      <p className="price__tag">
-        Rs. 275 <strike className="text-muted real__price">Rs. 500</strike>{" "}
-        <span className="discounted__price">-45%</span>
-      </p>
+      <div className="product_quantity_btn d-flex">
+        <button className="quantity_btn">-</button>
+        <p className="product_quantity">0</p>
+        <button className="quantity_btn">+</button>
+      </div>
+     </div>
       <div className="button__container">
-        <button className="btn btn-danger ">ADD TO CART</button>
-        <button className="btn btn-primary ">BUY NOW</button>
+        <button className="btn btn-danger cart-btn sticky-add-to-cart">ADD TO CART</button>
       </div>
     </div>
   );
