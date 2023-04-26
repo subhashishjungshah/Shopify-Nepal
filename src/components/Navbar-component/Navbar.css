@@ -12,7 +12,7 @@
 .image__logo{
   height: 80px;
 }
-.right__side__container{
+.right__side__container{ 
   display: flex;
   color: #fefefe;
   width: 130px;

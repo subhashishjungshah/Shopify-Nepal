@@ -11,7 +11,7 @@ import "./Navbar.css";
 import Searchbar from "../Resuablecomponents/Searchbar";
 import { Link } from "react-router-dom";
 const Navbar = () => {
-  return (
+  return ( 
     <div className="navbar__container">
       <Link to="/">
         <img src={companylogo} alt="image" className="image__logo" />
