@@ -1,0 +1,52 @@
+.category_page_container {
+}
+.category_description {
+  text-align: center;
+}
+.category_description p {
+}
+.category_btn {
+  text-align: center;
+  margin: 20px 0px;
+}
+.category_btn button {
+  color: #000;
+  background-color: #fff;
+  padding: 8px 50px;
+  border: 2px solid #000;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.category_btn button:hover {
+  background-color: rgba(64, 126, 210, 0.6) !important;
+  border: 2px solid white !important;
+  color: white !important;
+}
+.category_image_container {
+  position: relative;
+}
+.category_image_banner {
+  width: 100%;
+}
+.category_image_single {
+  width: 100%;
+  display: none;
+}
+.category_image_container button {
+  position: absolute;
+  top: 75%;
+  left: 44%;
+  border: none;
+  background-color: #407ed2;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 36px;
+}
+.category_image_container button:hover {
+  background-color: rgba(64, 126, 210, 0.6) !important;
+}
