@@ -5,6 +5,7 @@ import ProductDetailPage from "../pages/ProductDetailPage";
 import LoginRegisterPage from "../pages/LoginRegisterPage";
 import ProductSearchPage from "../pages/ProductSearchPage";
 import AddToCart from "../components/AddToCart/AddToCart";
+import Wishlist from "../components/Wishlist/Wishlist";
 const Routing = () => {
   return (
     <Routes>
@@ -13,6 +14,7 @@ const Routing = () => {
       <Route path="/loginorregister" element={<LoginRegisterPage />} />
       <Route path="/product_search" element={<ProductSearchPage />} />
       <Route path="/cart" element={<AddToCart />} />
+      <Route path="/wishlist" element={<Wishlist />} />
     </Routes>
   );
 };
