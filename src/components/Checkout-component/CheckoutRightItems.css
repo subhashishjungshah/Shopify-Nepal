@@ -1,0 +1,107 @@
+.checkout__right__wrapper{
+    border: 1px solid #f7f7f7;
+    width: 30%;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.box__heading__title{
+    display: flex;
+    background-color: #407ED2;
+    text-transform: uppercase;
+    align-items: center;
+    height: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.box__heading__title p{
+    color: #fefefe;
+    font-weight: 600;
+    padding-left: 20px;
+}
+.product__item{
+    display: flex;
+    
+    margin: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.product__item__image{
+    object-fit: contain;
+}
+.cart_quantity {
+    border-radius: 50%;
+    width: 26px;
+    /* padding: 2px 0px; */
+    color: white;
+    background-color: rgba(64, 126, 210, 0.6);
+    margin: 0px 4px;
+    border: none;
+  }
+  .button__wrapper{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+  }
+  .cart_quantity__value{
+    border-radius: 50%;
+    width: 26px;
+    /* padding: 2px 0px; */
+    color: white;
+    background-color: #000;
+    margin: 0px 4px;
+    border: none;
+  }
+  .qty__font{
+    font-size: 13px;
+    font-weight: 600;
+  }
+.price__info{
+    font-weight: 600;
+    font-size: 13px;
+}
+.description__info{
+    font-size: 15px;
+}
+.form__input__filed{
+    width: 300px !important;
+    margin: 0 !important;
+}
+.coupon__wrapper{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.coupons__button{
+    height: 38px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    background-color: #407ED2;
+    color: #fefefe;
+    font-weight: 600;
+}
+.pricing__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+    height: 90px;
+}
+.subtotal__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    /* background-color: #407ED2; */
+    height: 50%;
+}
+.pricing__title{
+    font-weight: 600;
+}
+.actual__price{
+    font-weight: 600;
+}

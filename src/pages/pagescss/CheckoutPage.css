@@ -1,0 +1,6 @@
+.checkout__page__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}

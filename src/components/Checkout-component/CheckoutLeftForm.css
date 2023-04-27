@@ -1,0 +1,31 @@
+.checkout__left__wrapper{
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.checkout__form__header{
+    font-size: 25 ;
+    font-weight: 600;
+}
+.email__address__title{
+    font-weight: 600 !important;
+    padding: 10px 0;
+}
+.form__input__filed{
+    border-radius: 0 !important;
+    width: 400px !important;
+    margin-top: 10px;
+}
+.form__input__number__field{
+    border-radius: 0 !important;
+    width: 400px !important;
+}
+.proceed__button{
+    width: 50%;
+    border: none;
+    padding: 10px 0;
+    font-weight: 600;
+    background-color: #407ED2;
+    color: #fefefe;
+}

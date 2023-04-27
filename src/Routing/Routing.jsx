@@ -6,6 +6,7 @@ import LoginRegisterPage from "../pages/LoginRegisterPage";
 import ProductSearchPage from "../pages/ProductSearchPage";
 import AddToCart from "../components/AddToCart/AddToCart";
 import Wishlist from "../components/Wishlist/Wishlist";
+import CheckoutPage from "../pages/CheckoutPage";
 const Routing = () => {
   return (
     <Routes>
@@ -15,6 +16,7 @@ const Routing = () => {
       <Route path="/product_search" element={<ProductSearchPage />} />
       <Route path="/cart" element={<AddToCart />} />
       <Route path="/wishlist" element={<Wishlist />} />
+      <Route path="/checkout" element={<CheckoutPage />} />
     </Routes>
   );
 };
