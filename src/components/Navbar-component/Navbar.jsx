@@ -10,7 +10,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 import "./Navbar.css";
 import Searchbar from "../Resuablecomponents/Searchbar";
 import { Link } from "react-router-dom";
-const Navbar = () => {
+const Navbar = () => { 
   return ( 
     <div className="navbar__container">
       <Link to="/">

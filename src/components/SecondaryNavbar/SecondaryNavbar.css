@@ -80,7 +80,7 @@ p {
 .mega_popular_picks p {
   text-align: center;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: bold; 
 }
 .search_bar_menu {
   display: none;
