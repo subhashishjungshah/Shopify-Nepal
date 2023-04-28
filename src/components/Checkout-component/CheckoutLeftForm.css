@@ -29,3 +29,59 @@
     background-color: #407ED2;
     color: #fefefe;
 }
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .checkout__left__wrapper{
+       margin-top: 20px;
+       padding: 20px;
+    }
+    .checkout__form__header{
+        font-size: 25 ;
+        font-weight: 600;
+    }
+   
+    .form__input__number__field{
+        border-radius: 0 !important;
+        width: 10px !important;
+    }
+    .proceed__button{
+        width: 50%;
+        border: none;
+        padding: 5px 0;
+        font-weight: 600;
+        background-color: #407ED2;
+        color: #fefefe;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .checkout__left__wrapper{
+        margin-top: 20px;
+        padding: 20px;
+     }
+     .checkout__form__header{
+         font-size: 25 ;
+         font-weight: 600;
+     }
+    
+     .form__input__number__field{
+         border-radius: 0 !important;
+         width: 10px !important;
+     }
+     .proceed__button{
+         width: 50%;
+         border: none;
+         padding: 5px 0;
+         font-weight: 600;
+         background-color: #407ED2;
+         color: #fefefe;
+     }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .checkout__left__wrapper{
+       width: 100%;
+       padding: 30px 10px;
+    }
+  
+}
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+
+}
