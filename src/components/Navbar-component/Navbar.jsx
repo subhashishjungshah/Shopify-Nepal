@@ -9,9 +9,9 @@ import ButtonGroup from "react-bootstrap/ButtonGroup";
 import Dropdown from "react-bootstrap/Dropdown";
 import "./Navbar.css";
 import Searchbar from "../Resuablecomponents/Searchbar";
-import { Link } from "react-router-dom";
-const Navbar = () => { 
-  return ( 
+import { Link, NavLink } from "react-router-dom";
+const Navbar = () => {
+  return (
     <div className="navbar__container">
       <Link to="/">
         <img src={companylogo} alt="image" className="image__logo" />
@@ -38,16 +38,16 @@ const Navbar = () => {
             </Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item className="dropdown__items__one">
-              <Link to="/loginorregister">
+              <Link to="/login_or_register">
                 <button className="signIn__btn">Sign In</button>
               </Link>
-              <Link to="/loginorregister">
+              <Link to="/login_or_register">
                 <button className="register__btn">Register</button>
               </Link>
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <Dropdown as={ButtonGroup}>
+        <Dropdown>
           <Dropdown.Toggle
             style={{
               backgroundColor: "#407ED2",
@@ -56,18 +56,20 @@ const Navbar = () => {
               outline: "none",
             }}
           >
+            <NavLink to='/wishlist'>
             <FavoriteIcon
               sx={{ fontSize: 30 }}
               style={{ cursor: "pointer", color: "white" }}
             />
+            </NavLink>
           </Dropdown.Toggle>
-          <Dropdown.Menu>
+          {/* <Dropdown.Menu>
             <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
             <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          </Dropdown.Menu>
+          </Dropdown.Menu> */}
         </Dropdown>
-        <Dropdown as={ButtonGroup}>
+        <Dropdown>
           <Dropdown.Toggle
             style={{
               backgroundColor: "#407ED2",
@@ -76,17 +78,19 @@ const Navbar = () => {
               outline: "none",
             }}
           >
+            <NavLink to='/cart'>
             <ShoppingBagIcon
               sx={{ fontSize: 30 }}
               style={{ cursor: "pointer", color: "white" }}
             />
+            </NavLink>
           </Dropdown.Toggle>
-          <Dropdown.Menu className="dropdown__menu__container">
+          {/* <Dropdown.Menu className="dropdown__menu__container">
             <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
 
             <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-          </Dropdown.Menu>
+          </Dropdown.Menu> */}
         </Dropdown>
       </div>
     </div>
