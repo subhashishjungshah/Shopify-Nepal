@@ -5,7 +5,9 @@ import books from "../../assets/books.webp";
 import card from "../../assets/card.webp";
 import earphone from "../../assets/earphone.webp";
 import TeaCoffee from "../../assets/Tea&coffee.webp";
+import { useNavigate } from "react-router-dom";
 const AddToCart = () => {
+  const navigate = useNavigate();
   const CartArr = [
     {
       image: books,
@@ -36,6 +38,10 @@ const AddToCart = () => {
       total: "Rs. 240 /-",
     },
   ];
+  const navigateHandler = (e) => {
+    e.preventDefault();
+    navigate('/checkout')
+  }
   return (
     <>
       <section className="add_to_cart_container">
@@ -99,7 +105,7 @@ const AddToCart = () => {
         </div>
         <div className="container">
           <div className="cart_btn_container">
-            <button>Checkout</button>
+            <button onClick={(e)=>navigateHandler(e)}>Checkout</button>
           </div>
         </div>
       </section>
